@@ -51,7 +51,7 @@ public class SimpleSearch {
                 "/Users/Darius/Documents/webdrivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://fasttrackit.org/selenium-test/");
-        driver.findElement(By.className("input-text required-entry")).sendKeys("a tale of two cities"+Keys.ENTER);
+        driver.findElement(By.className("required-entry")).sendKeys("a tale of two cities"+Keys.ENTER);
     }
 
 }
